@@ -9,20 +9,21 @@ import model.base.GenericSet;
 /**
  *
  * @author Student
+ * @param <T>
  */
-public class PackArraySet<T> extends GenericSet<T> {
+public class PackArraySet<T> {//extends GenericSet<T> {
 
-    @Override
+//    @Override
     public T add(T t) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
-    @Override
+//    @Override
     public boolean delete(T t) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
-    @Override
+//    @Override
     public int find(T t) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }

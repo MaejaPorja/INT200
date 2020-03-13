@@ -15,4 +15,5 @@ public abstract class GenericSet<T> implements Iterable<T> {
     abstract public T add(T t);
     abstract public boolean delete(T t);
     abstract public int find(T t);
+    protected transient int modCount;
 }
